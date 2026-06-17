@@ -424,21 +424,9 @@ def main() -> None:
     csv_path = RESULTS_DIR / "evaluation_report.csv"
     md_path = RESULTS_DIR / "analysis_summary.md"
 
-    # Select the best output per scenario (highest composite_score) across models
-    # and write a single, up-to-date report file. This avoids creating many
-    # timestamped files while preserving a full analysis summary.
-    best_per_scenario: dict[int, dict] = {}
-    for r in results:
-        sid = r["scenario_id"]
-        if sid not in best_per_scenario or r["composite_score"] > best_per_scenario[sid]["composite_score"]:
-            best_per_scenario[sid] = r
-
-    # Ordered list of best results (one per scenario)
-    best_results = [best_per_scenario[k] for k in sorted(best_per_scenario.keys())]
-
-    # Write only the single authoritative report
-    _write_json(best_results, json_path)
-    _write_csv(best_results, csv_path)
+    # Write the report for all models
+    _write_json(results, json_path)
+    _write_csv(results, csv_path)
     _write_analysis(results, md_path)
 
     _print_console_summary(results)
