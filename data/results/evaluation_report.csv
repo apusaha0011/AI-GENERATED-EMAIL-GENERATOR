@@ -1,0 +1,21 @@
+model_name,scenario_id,intent,tone,m1_fact_recall,m2_tone_adherence_raw,m2_tone_adherence_norm,m3_fluency_raw,m3_fluency_norm,composite_score
+OpenAI GPT-4o,1,Follow up after a sales meeting and propose next steps,Warm and professional,1.0,9,0.8889,10,1.0,0.963
+OpenAI GPT-4o,2,Request urgent payment for an overdue invoice,Firm and urgent,1.0,9,0.8889,10,1.0,0.963
+OpenAI GPT-4o,3,Apologise for a delayed product shipment and provide a new delivery date,Empathetic and apologetic,1.0,9,0.8889,10,1.0,0.963
+OpenAI GPT-4o,4,Request a proposal for corporate catering services for an annual gala,Formal and courteous,1.0,9,0.8889,10,1.0,0.963
+OpenAI GPT-4o,5,Introduce a new team member to key external stakeholders,Friendly and professional,1.0,9,0.8889,10,1.0,0.963
+OpenAI GPT-4o,6,Decline a partnership proposal politely while leaving the door open for future collaboration,Polite and diplomatic,0.8,9,0.8889,10,1.0,0.8963
+OpenAI GPT-4o,7,Request approval from a manager to attend an external conference,Respectful and persuasive,1.0,9,0.8889,10,1.0,0.963
+OpenAI GPT-4o,8,Notify a client of a planned system maintenance window and its impact,Clear and reassuring,1.0,9,0.8889,10,1.0,0.963
+OpenAI GPT-4o,9,Congratulate a business partner on a company milestone and reinforce the relationship,"Warm, celebratory, and sincere",1.0,9,0.8889,10,1.0,0.963
+OpenAI GPT-4o,10,Escalate a recurring data security compliance issue to an IT manager,"Formal, serious, and assertive",1.0,10,1.0,10,1.0,1.0
+xAI Grok-3,1,Follow up after a sales meeting and propose next steps,Warm and professional,0.75,9,0.8889,10,1.0,0.8796
+xAI Grok-3,2,Request urgent payment for an overdue invoice,Firm and urgent,1.0,9,0.8889,10,1.0,0.963
+xAI Grok-3,3,Apologise for a delayed product shipment and provide a new delivery date,Empathetic and apologetic,1.0,9,0.8889,10,1.0,0.963
+xAI Grok-3,4,Request a proposal for corporate catering services for an annual gala,Formal and courteous,1.0,9,0.8889,10,1.0,0.963
+xAI Grok-3,5,Introduce a new team member to key external stakeholders,Friendly and professional,1.0,8,0.7778,10,1.0,0.9259
+xAI Grok-3,6,Decline a partnership proposal politely while leaving the door open for future collaboration,Polite and diplomatic,0.8,9,0.8889,10,1.0,0.8963
+xAI Grok-3,7,Request approval from a manager to attend an external conference,Respectful and persuasive,1.0,9,0.8889,10,1.0,0.963
+xAI Grok-3,8,Notify a client of a planned system maintenance window and its impact,Clear and reassuring,1.0,9,0.8889,10,1.0,0.963
+xAI Grok-3,9,Congratulate a business partner on a company milestone and reinforce the relationship,"Warm, celebratory, and sincere",1.0,9,0.8889,10,1.0,0.963
+xAI Grok-3,10,Escalate a recurring data security compliance issue to an IT manager,"Formal, serious, and assertive",1.0,9,0.8889,10,1.0,0.963

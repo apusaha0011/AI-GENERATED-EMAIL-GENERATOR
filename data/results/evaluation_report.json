@@ -1,0 +1,1102 @@
+[
+  {
+    "model_key": "gpt-4o",
+    "model_name": "OpenAI GPT-4o",
+    "scenario_id": 1,
+    "intent": "Follow up after a sales meeting and propose next steps",
+    "tone": "Warm and professional",
+    "generated_email": "Subject: Follow-Up on Our June 12th Meeting at Nexus HQ\n\nHi James Okafor,\n\nThank you for meeting with us on June 12th at Nexus HQ. It was a pleasure to discuss how our solutions can support the exciting work being done at Nexus Ltd.\n\nI am thrilled to hear about your interest in our cloud storage integration feature. We believe this could greatly enhance your operations and meet your storage needs efficiently.\n\nTo move forward, we propose initiating a 30-day pilot program starting on July 1st. This will allow Nexus Ltd to experience the full range of benefits our integration offers and ensure it meets your expectations.\n\nPlease let me know if this timeline works for you or if there are any other details we should discuss.\n\nLooking forward to our continued collaboration.\n\nBest regards,\n[Your Name]",
+    "reference_email": "Subject: Following Up on Our June 12th Meeting — Next Steps\n\nDear James,\n\nThank you for the engaging discussion during our meeting at Nexus HQ on June 12th. It was a pleasure exploring how our platform can address Nexus Ltd's operational needs.\n\nI was particularly glad to hear your interest in our cloud storage integration feature — it is one of our most robust capabilities and one I believe will deliver immediate value for your team.\n\nFollowing our conversation, I would like to formally propose a 30-day pilot program beginning July 1st. This would allow your team to experience the full feature set in a live environment with zero commitment, and give us measurable data to build a longer-term proposal around.\n\nPlease let me know if the July 1st start date works for you, or if you would prefer to schedule a brief call to finalise the details.\n\nWarm regards,\n[Your Name]",
+    "metric_1_fact_recall": {
+      "score": 1.0,
+      "recalled_count": 4,
+      "total_facts": 4,
+      "per_fact": [
+        {
+          "fact": "Meeting held on June 12th at Nexus HQ",
+          "recalled": true,
+          "overlap_ratio": 0.8333
+        },
+        {
+          "fact": "Client is interested in the cloud storage integration feature",
+          "recalled": true,
+          "overlap_ratio": 0.6667
+        },
+        {
+          "fact": "Proposed pilot program of 30 days starting July 1st",
+          "recalled": true,
+          "overlap_ratio": 0.75
+        },
+        {
+          "fact": "Contact: James Okafor, Head of Operations at Nexus Ltd",
+          "recalled": true,
+          "overlap_ratio": 0.7143
+        }
+      ]
+    },
+    "metric_2_tone_adherence": {
+      "score": 0.8889,
+      "raw_score": 9,
+      "reasoning": "The email maintains a warm and professional tone throughout, with appropriate vocabulary and structure, effectively conveying enthusiasm and support."
+    },
+    "metric_3_fluency_professionalism": {
+      "score": 1.0,
+      "raw_score": 10,
+      "grammar": 4,
+      "structure": 3,
+      "clarity": 3,
+      "reasoning": "The email is well-written with no grammatical errors, follows a clear structure, and communicates its message effectively."
+    },
+    "composite_score": 0.963
+  },
+  {
+    "model_key": "gpt-4o",
+    "model_name": "OpenAI GPT-4o",
+    "scenario_id": 2,
+    "intent": "Request urgent payment for an overdue invoice",
+    "tone": "Firm and urgent",
+    "generated_email": "Subject: URGENT: Immediate Payment Required for Overdue Invoice #INV-2024-0087\n\nDear Brightfield Solutions,\n\nThis is a formal notice regarding the overdue payment for invoice #INV-2024-0087, which was due on May 30th. The outstanding amount of $14,750 remains unpaid.\n\nThis is the third reminder we are issuing concerning this payment. We must stress the urgency of settling this amount to avoid any disruptions to the services we provide.\n\nPlease ensure that payment is received by June 20th to prevent suspension of services. We trust you will treat this matter with the urgency it requires.\n\nWe appreciate your prompt attention to this issue.\n\nSincerely,\n[Your Name]",
+    "reference_email": "Subject: FINAL NOTICE — Invoice #INV-2024-0087 Overdue ($14,750 Due)\n\nDear Brightfield Solutions Accounts Team,\n\nThis is our third and final payment reminder for Invoice #INV-2024-0087, which was due on May 30th. The outstanding balance of $14,750 remains unpaid.\n\nPlease be advised that payment must be received by June 20th. Failure to settle this balance by that date will result in the suspension of services as outlined in our agreement.\n\nWe ask that you process this payment immediately and confirm once completed. If there are extenuating circumstances affecting payment, please contact us today so we can discuss options before the deadline.\n\nWe expect prompt resolution of this matter,\n[Your Name]\n[Accounts Department]",
+    "metric_1_fact_recall": {
+      "score": 1.0,
+      "recalled_count": 5,
+      "total_facts": 5,
+      "per_fact": [
+        {
+          "fact": "Invoice #INV-2024-0087 was due on May 30th",
+          "recalled": true,
+          "overlap_ratio": 1.0
+        },
+        {
+          "fact": "Outstanding amount is $14,750",
+          "recalled": true,
+          "overlap_ratio": 1.0
+        },
+        {
+          "fact": "This is the third payment reminder",
+          "recalled": true,
+          "overlap_ratio": 1.0
+        },
+        {
+          "fact": "Payment must be received by June 20th to avoid service suspension",
+          "recalled": true,
+          "overlap_ratio": 1.0
+        },
+        {
+          "fact": "Client: Brightfield Solutions",
+          "recalled": true,
+          "overlap_ratio": 0.6667
+        }
+      ]
+    },
+    "metric_2_tone_adherence": {
+      "score": 0.8889,
+      "raw_score": 9,
+      "reasoning": "The email maintains a firm and urgent tone throughout, using strong language and clear deadlines without any contradictory signals."
+    },
+    "metric_3_fluency_professionalism": {
+      "score": 1.0,
+      "raw_score": 10,
+      "grammar": 4,
+      "structure": 3,
+      "clarity": 3,
+      "reasoning": "The email is well-written with no grammatical errors, follows a clear structure, and communicates the urgency of the payment clearly and concisely."
+    },
+    "composite_score": 0.963
+  },
+  {
+    "model_key": "gpt-4o",
+    "model_name": "OpenAI GPT-4o",
+    "scenario_id": 3,
+    "intent": "Apologise for a delayed product shipment and provide a new delivery date",
+    "tone": "Empathetic and apologetic",
+    "generated_email": "Subject: Apology for Delay in Order #ORD-88421 and New Delivery Date\n\nDear Maria Santos,\n\nI am writing to sincerely apologize for the delay in the shipment of your order #ORD-88421, originally scheduled for delivery on June 5th. We understand that timely delivery is crucial, and we regret any inconvenience this may have caused.\n\nThe delay was due to an unexpected customs clearance issue that was beyond our control. We have resolved the matter, and I am pleased to inform you that your order will now be delivered on June 22nd.\n\nAs a token of our appreciation for your patience and understanding, we would like to offer you a 10% discount on your next order with us. We value your business and are committed to providing you with excellent service.\n\nThank you for your understanding, and please accept our sincerest apologies once again.\n\nWarm regards,\n[Your Name]",
+    "reference_email": "Subject: Update on Your Order #ORD-88421 — New Delivery Date\n\nDear Maria,\n\nI want to sincerely apologise for the delay with your order #ORD-88421. We understand how frustrating it is when an expected delivery does not arrive on time, and we are truly sorry for the inconvenience.\n\nUnfortunately, your shipment encountered an unexpected customs clearance issue that was outside our control, which pushed back the original June 5th delivery date. I am pleased to confirm that the issue has been resolved and your order is now scheduled for delivery on June 22nd.\n\nAs a token of our apology and gratitude for your patience, we would like to offer you a 10% discount on your next order. A discount code will be included in your shipping confirmation email.\n\nThank you for your understanding, Maria. We value your business greatly and are committed to making this right.\n\nWith sincere apologies,\n[Your Name]",
+    "metric_1_fact_recall": {
+      "score": 1.0,
+      "recalled_count": 5,
+      "total_facts": 5,
+      "per_fact": [
+        {
+          "fact": "Original delivery date was June 5th",
+          "recalled": true,
+          "overlap_ratio": 0.8
+        },
+        {
+          "fact": "Delay caused by an unexpected customs clearance issue",
+          "recalled": true,
+          "overlap_ratio": 1.0
+        },
+        {
+          "fact": "New confirmed delivery date is June 22nd",
+          "recalled": true,
+          "overlap_ratio": 0.8333
+        },
+        {
+          "fact": "Customer: Maria Santos, Order #ORD-88421",
+          "recalled": true,
+          "overlap_ratio": 0.8
+        },
+        {
+          "fact": "Offering a 10% discount on next order as goodwill gesture",
+          "recalled": true,
+          "overlap_ratio": 0.7143
+        }
+      ]
+    },
+    "metric_2_tone_adherence": {
+      "score": 0.8889,
+      "raw_score": 9,
+      "reasoning": "The email maintains an empathetic and apologetic tone throughout, with appropriate vocabulary and structure, effectively addressing the customer's concerns."
+    },
+    "metric_3_fluency_professionalism": {
+      "score": 1.0,
+      "raw_score": 10,
+      "grammar": 4,
+      "structure": 3,
+      "clarity": 3,
+      "reasoning": "The email is well-written with no grammatical errors, follows a clear structure, and communicates the message effectively without unnecessary filler."
+    },
+    "composite_score": 0.963
+  },
+  {
+    "model_key": "gpt-4o",
+    "model_name": "OpenAI GPT-4o",
+    "scenario_id": 4,
+    "intent": "Request a proposal for corporate catering services for an annual gala",
+    "tone": "Formal and courteous",
+    "generated_email": "Subject: Request for Proposal: Corporate Catering Services for Annual Gala\n\nDear [Catering Company Name or Contact Person],\n\nI am writing to request a proposal for catering services for our upcoming annual gala, scheduled to take place on September 14th. The event will be held at The Grand Ballroom, Hotel Metropolis, and we expect approximately 250 guests in attendance.\n\nWe would appreciate your consideration of our dietary requirements, which include vegan and gluten-free options, to accommodate all our guests. Our budget range for the catering services is between $20,000 and $30,000.\n\nWe kindly request that you provide your proposal by July 10th, allowing us ample time to review and make a decision.\n\nThank you for your attention to this request. We look forward to the possibility of working together to create a memorable event.\n\nSincerely,\n[Your Name]",
+    "reference_email": "Subject: Request for Catering Proposal — Annual Gala, September 14th\n\nDear Sir/Madam,\n\nI am writing on behalf of our organisation to formally request a catering proposal for our upcoming annual gala.\n\nThe event is scheduled for September 14th and will be held at The Grand Ballroom, Hotel Metropolis. We are expecting approximately 250 guests and require a comprehensive catering package that includes both dinner service and reception-style refreshments.\n\nPlease note that a portion of our guests have specific dietary requirements, and we ask that your proposal include vegan and gluten-free menu options. Our budget for the catering services is in the range of $20,000 to $30,000.\n\nWe kindly request that you submit your proposal by July 10th so that we may evaluate our options in a timely manner. Should you require any additional information, please do not hesitate to contact us.\n\nThank you for your time and consideration.\n\nYours faithfully,\n[Your Name]\n[Title, Organisation]",
+    "metric_1_fact_recall": {
+      "score": 1.0,
+      "recalled_count": 6,
+      "total_facts": 6,
+      "per_fact": [
+        {
+          "fact": "Event date: September 14th",
+          "recalled": true,
+          "overlap_ratio": 0.75
+        },
+        {
+          "fact": "Expected attendance: 250 guests",
+          "recalled": true,
+          "overlap_ratio": 1.0
+        },
+        {
+          "fact": "Venue: The Grand Ballroom, Hotel Metropolis",
+          "recalled": true,
+          "overlap_ratio": 0.8
+        },
+        {
+          "fact": "Dietary requirements include vegan and gluten-free options",
+          "recalled": true,
+          "overlap_ratio": 1.0
+        },
+        {
+          "fact": "Budget range: $20,000 – $30,000",
+          "recalled": true,
+          "overlap_ratio": 1.0
+        },
+        {
+          "fact": "Response needed by July 10th",
+          "recalled": true,
+          "overlap_ratio": 0.5
+        }
+      ]
+    },
+    "metric_2_tone_adherence": {
+      "score": 0.8889,
+      "raw_score": 9,
+      "reasoning": "The email maintains a formal and courteous tone throughout, with appropriate vocabulary and structure, and no contradicting signals."
+    },
+    "metric_3_fluency_professionalism": {
+      "score": 1.0,
+      "raw_score": 10,
+      "grammar": 4,
+      "structure": 3,
+      "clarity": 3,
+      "reasoning": "The email is well-written with no grammatical errors, follows a clear structure, and communicates the request effectively."
+    },
+    "composite_score": 0.963
+  },
+  {
+    "model_key": "gpt-4o",
+    "model_name": "OpenAI GPT-4o",
+    "scenario_id": 5,
+    "intent": "Introduce a new team member to key external stakeholders",
+    "tone": "Friendly and professional",
+    "generated_email": "Subject: Welcome Priya Nair as Our New Senior Account Manager\n\nDear Valued Stakeholders,\n\nI am delighted to introduce Priya Nair, who will be joining our team as the Senior Account Manager. Priya brings with her eight years of extensive experience in B2B client relations, making her a valuable addition to our team.\n\nStarting July 1st, Priya will take over as the primary point of contact, replacing David Kim. We are confident that her expertise and commitment will greatly benefit our ongoing partnerships.\n\nFor any future inquiries or assistance, please feel free to reach out to Priya directly at priya.nair@company.com. She is eager to connect with each of you and ensure a seamless transition.\n\nThank you for your continued support and collaboration.\n\nWarm regards,\n[Your Name]",
+    "reference_email": "Subject: Introducing Your New Account Manager — Priya Nair\n\nDear [Stakeholder Name],\n\nI hope this email finds you well. I am delighted to introduce Priya Nair, who will be joining our team as Senior Account Manager effective July 1st.\n\nPriya brings eight years of extensive experience in B2B client relations and is exceptionally well-placed to support your account. She will be stepping into the role currently held by David Kim and will become your primary point of contact going forward.\n\nFrom July 1st, please direct all enquiries and communications to Priya at priya.nair@company.com. She is eager to connect with you and looks forward to building on the strong relationship we have established together.\n\nWe are thrilled to have Priya on board and are confident you will enjoy working with her.\n\nWarm regards,\n[Your Name]",
+    "metric_1_fact_recall": {
+      "score": 1.0,
+      "recalled_count": 5,
+      "total_facts": 5,
+      "per_fact": [
+        {
+          "fact": "New team member: Priya Nair, joining as Senior Account Manager",
+          "recalled": true,
+          "overlap_ratio": 0.8889
+        },
+        {
+          "fact": "Priya brings 8 years of experience in B2B client relations",
+          "recalled": true,
+          "overlap_ratio": 0.75
+        },
+        {
+          "fact": "She will be the primary point of contact replacing David Kim",
+          "recalled": true,
+          "overlap_ratio": 1.0
+        },
+        {
+          "fact": "Effective date: July 1st",
+          "recalled": true,
+          "overlap_ratio": 0.5
+        },
+        {
+          "fact": "Stakeholders should direct all future enquiries to priya.nair@company.com",
+          "recalled": true,
+          "overlap_ratio": 0.6
+        }
+      ]
+    },
+    "metric_2_tone_adherence": {
+      "score": 0.8889,
+      "raw_score": 9,
+      "reasoning": "The email maintains a friendly and professional tone throughout, with appropriate vocabulary and structure, effectively welcoming the new team member."
+    },
+    "metric_3_fluency_professionalism": {
+      "score": 1.0,
+      "raw_score": 10,
+      "grammar": 4,
+      "structure": 3,
+      "clarity": 3,
+      "reasoning": "The email is well-written with no grammatical errors, follows a clear structure, and communicates the message effectively without unnecessary filler."
+    },
+    "composite_score": 0.963
+  },
+  {
+    "model_key": "gpt-4o",
+    "model_name": "OpenAI GPT-4o",
+    "scenario_id": 6,
+    "intent": "Decline a partnership proposal politely while leaving the door open for future collaboration",
+    "tone": "Polite and diplomatic",
+    "generated_email": "Subject: Appreciation for Your Proposal Submission\n\nDear Leo Farrell,\n\nI hope this message finds you well. I wanted to extend my gratitude to you and the team at Atlas Creative Agency for the comprehensive proposal you submitted on June 1st. The effort and creativity you put into the presentation were truly impressive.\n\nAfter careful consideration, we have decided not to move forward with the partnership at this time due to budget constraints for the current fiscal year. This decision is purely financial and not a reflection on the quality of your work.\n\nWe greatly appreciated the detailed proposal and the creative concepts your team put forward. Your innovative approach certainly stood out, and we were very impressed by the potential it holds.\n\nWe are very open to revisiting this opportunity in the first quarter of next year when our budget situation may allow for such a collaboration. I look forward to potentially exploring this further with you.\n\nThank you once again for your understanding and the effort put into the proposal. Please feel free to reach out if you have any questions.\n\nBest regards,\n[Your Name]",
+    "reference_email": "Subject: Re: Partnership Proposal — Atlas Creative Agency\n\nDear Leo,\n\nThank you for taking the time to put together such a comprehensive and creative partnership proposal, which we received on June 1st. The concepts and strategy you presented were genuinely impressive, and it is clear that significant thought and effort went into them.\n\nAfter careful consideration, we have made the difficult decision to decline the partnership at this time. This decision is driven purely by budget constraints within our current fiscal year and is in no way a reflection of the quality of your proposal or the capabilities of Atlas Creative Agency.\n\nWe are, however, very interested in the possibility of revisiting this conversation in Q1 of next year, when our budget cycle resets and we are better positioned to explore collaborations of this nature.\n\nWe hope this does not close the door on a future relationship, Leo, and we look forward to the possibility of working together down the line.\n\nKind regards,\n[Your Name]",
+    "metric_1_fact_recall": {
+      "score": 0.8,
+      "recalled_count": 4,
+      "total_facts": 5,
+      "per_fact": [
+        {
+          "fact": "Received proposal from Atlas Creative Agency on June 1st",
+          "recalled": true,
+          "overlap_ratio": 0.8571
+        },
+        {
+          "fact": "Decision to decline is due to budget constraints for this fiscal year",
+          "recalled": true,
+          "overlap_ratio": 0.8571
+        },
+        {
+          "fact": "Appreciated the detailed proposal and creative concepts presented",
+          "recalled": true,
+          "overlap_ratio": 0.8333
+        },
+        {
+          "fact": "Open to revisiting in Q1 of next year",
+          "recalled": true,
+          "overlap_ratio": 0.8
+        },
+        {
+          "fact": "Contact at Atlas: Leo Farrell, Business Development Director",
+          "recalled": false,
+          "overlap_ratio": 0.4286
+        }
+      ]
+    },
+    "metric_2_tone_adherence": {
+      "score": 0.8889,
+      "raw_score": 9,
+      "reasoning": "The email maintains a polite and diplomatic tone throughout, with appropriate vocabulary and structure, and no contradicting signals."
+    },
+    "metric_3_fluency_professionalism": {
+      "score": 1.0,
+      "raw_score": 10,
+      "grammar": 4,
+      "structure": 3,
+      "clarity": 3,
+      "reasoning": "The email is well-written with no grammatical errors, follows a clear structure, and communicates the message effectively without unnecessary filler."
+    },
+    "composite_score": 0.8963
+  },
+  {
+    "model_key": "gpt-4o",
+    "model_name": "OpenAI GPT-4o",
+    "scenario_id": 7,
+    "intent": "Request approval from a manager to attend an external conference",
+    "tone": "Respectful and persuasive",
+    "generated_email": "Subject: Request for Approval to Attend AI & Innovation Summit 2024\n\nDear [Manager's Name],\n\nI hope this message finds you well. I am writing to seek your approval to attend the AI & Innovation Summit 2024, scheduled to take place in San Francisco from August 19th to 21st. This conference presents a unique opportunity to engage with the latest advancements in artificial intelligence and innovation.\n\nThe registration fee for the summit is $1,200, and the estimated cost for travel and accommodation is approximately $2,500. I believe this investment is justified as the conference covers topics directly relevant to our current Q3 project on machine learning pipeline automation. Attending the summit will provide valuable insights and strategies that can be directly applied to enhance our project outcomes.\n\nUpon my return, I am committed to conducting a comprehensive debrief session with the team to share key learnings and insights gained from the conference.\n\nThank you for considering this request. I am confident that my attendance will contribute significantly to our project's success and look forward to your positive response.\n\nBest regards,\n[Your Name]",
+    "reference_email": "Subject: Request for Approval — AI & Innovation Summit 2024 (Aug 19–21)\n\nDear [Manager's Name],\n\nI would like to request your approval to attend the AI & Innovation Summit 2024, taking place in San Francisco from August 19th to 21st.\n\nThis conference is particularly relevant to our current Q3 project on ML pipeline automation. The sessions cover the latest developments in applied machine learning, pipeline orchestration, and AI deployment strategies — all of which directly align with the challenges we are navigating. I believe the insights gained could meaningfully accelerate our progress.\n\nThe registration fee is $1,200, with an estimated total of $2,500 for travel and accommodation, bringing the overall cost to approximately $3,700.\n\nTo maximise the value for the wider team, I am committed to hosting a debrief session upon my return to share key learnings and any applicable strategies.\n\nI appreciate your consideration and am happy to discuss further if helpful.\n\nRespectfully,\n[Your Name]",
+    "metric_1_fact_recall": {
+      "score": 1.0,
+      "recalled_count": 5,
+      "total_facts": 5,
+      "per_fact": [
+        {
+          "fact": "Conference: AI & Innovation Summit 2024, held in San Francisco",
+          "recalled": true,
+          "overlap_ratio": 0.875
+        },
+        {
+          "fact": "Dates: August 19th – 21st",
+          "recalled": true,
+          "overlap_ratio": 0.75
+        },
+        {
+          "fact": "Registration cost: $1,200; estimated travel and accommodation: $2,500",
+          "recalled": true,
+          "overlap_ratio": 1.0
+        },
+        {
+          "fact": "Conference covers topics directly relevant to current Q3 project on ML pipeline automation",
+          "recalled": true,
+          "overlap_ratio": 0.9091
+        },
+        {
+          "fact": "Committing to a debrief session with the team upon return",
+          "recalled": true,
+          "overlap_ratio": 1.0
+        }
+      ]
+    },
+    "metric_2_tone_adherence": {
+      "score": 0.8889,
+      "raw_score": 9,
+      "reasoning": "The email maintains a respectful and persuasive tone throughout, with appropriate vocabulary and structure, effectively justifying the request."
+    },
+    "metric_3_fluency_professionalism": {
+      "score": 1.0,
+      "raw_score": 10,
+      "grammar": 4,
+      "structure": 3,
+      "clarity": 3,
+      "reasoning": "The email is well-written with no grammatical errors, follows a clear structure, and communicates the request effectively without unnecessary filler."
+    },
+    "composite_score": 0.963
+  },
+  {
+    "model_key": "gpt-4o",
+    "model_name": "OpenAI GPT-4o",
+    "scenario_id": 8,
+    "intent": "Notify a client of a planned system maintenance window and its impact",
+    "tone": "Clear and reassuring",
+    "generated_email": "Subject: Upcoming System Maintenance Scheduled for June 29th-30th\n\nDear [Client's Name],\n\nWe are writing to inform you about a scheduled system maintenance window that will take place from Saturday, June 29th at 11:00 PM to Sunday, June 30th at 3:00 AM (UTC). During this time, all platform services will be temporarily unavailable.\n\nThis maintenance is essential to upgrade our core infrastructure, which will enhance overall performance and security. Please rest assured that no data loss is expected as all data is securely backed up.\n\nWe recommend that you plan accordingly and avoid scheduling any critical operations during this maintenance window to ensure uninterrupted service for your operations.\n\nThank you for your understanding and cooperation.\n\nBest regards,\n[Your Name]",
+    "reference_email": "Subject: Planned Maintenance Notification — June 29th, 11:00 PM UTC\n\nDear [Client Name],\n\nWe are writing to inform you of a planned system maintenance window that will affect access to our platform.\n\nThe maintenance is scheduled for Saturday, June 29th, from 11:00 PM UTC to Sunday, June 30th, 3:00 AM UTC (a total of 4 hours). During this period, all platform services will be temporarily unavailable.\n\nThis maintenance is necessary to upgrade our core infrastructure, delivering improvements to both system performance and security that will benefit all users going forward.\n\nPlease be assured that no data loss is expected. All data has been fully backed up in advance, and our engineering team will be on standby throughout the window. We strongly recommend planning your operations accordingly and avoiding scheduling any critical tasks during these hours.\n\nWe apologise for any inconvenience and thank you for your understanding.\n\nBest regards,\n[Your Name]\n[Support Team]",
+    "metric_1_fact_recall": {
+      "score": 1.0,
+      "recalled_count": 5,
+      "total_facts": 5,
+      "per_fact": [
+        {
+          "fact": "Maintenance window: Saturday, June 29th, 11:00 PM to Sunday, June 30th, 3:00 AM (UTC)",
+          "recalled": true,
+          "overlap_ratio": 1.0
+        },
+        {
+          "fact": "All platform services will be unavailable during this period",
+          "recalled": true,
+          "overlap_ratio": 0.75
+        },
+        {
+          "fact": "Maintenance is to upgrade core infrastructure for improved performance and security",
+          "recalled": true,
+          "overlap_ratio": 0.8571
+        },
+        {
+          "fact": "No data loss expected; all data is backed up",
+          "recalled": true,
+          "overlap_ratio": 1.0
+        },
+        {
+          "fact": "Client should plan accordingly and avoid scheduling critical operations during this window",
+          "recalled": true,
+          "overlap_ratio": 1.0
+        }
+      ]
+    },
+    "metric_2_tone_adherence": {
+      "score": 0.8889,
+      "raw_score": 9,
+      "reasoning": "The email maintains a clear and reassuring tone throughout, using appropriate vocabulary and structure to convey important information without causing alarm."
+    },
+    "metric_3_fluency_professionalism": {
+      "score": 1.0,
+      "raw_score": 10,
+      "grammar": 4,
+      "structure": 3,
+      "clarity": 3,
+      "reasoning": "The email is well-written with no grammatical errors, follows a clear structure, and communicates the message effectively without unnecessary filler."
+    },
+    "composite_score": 0.963
+  },
+  {
+    "model_key": "gpt-4o",
+    "model_name": "OpenAI GPT-4o",
+    "scenario_id": 9,
+    "intent": "Congratulate a business partner on a company milestone and reinforce the relationship",
+    "tone": "Warm, celebratory, and sincere",
+    "generated_email": "Subject: Congratulations on 10 Remarkable Years, Meridian Tech!\n\nDear [Contact Name],\n\nI am thrilled to extend my heartfelt congratulations to everyone at Meridian Tech on the occasion of your 10th anniversary. Reaching this milestone is a testament to your hard work, dedication, and innovation.\n\nReflecting on the past six years we have worked together, I am proud of the strong partnership our companies have built. A highlight of our collaboration was the successful launch of the logistics platform in 2022, which showcased the power of our teamwork and shared vision.\n\nAs we look ahead, I am genuinely excited about the future projects we will embark on together. I am confident that our continued collaboration will bring even more achievements and mutual success.\n\nHere's to many more years of shared accomplishments and growth!\n\nWarm regards,\n[Your Name]",
+    "reference_email": "Subject: Congratulations on 10 Years — A Milestone Worth Celebrating!\n\nDear [Partner's Name],\n\nOn behalf of our entire team, I want to extend our warmest congratulations to you and everyone at Meridian Tech on reaching your 10th anniversary. A decade of innovation, growth, and impact — this is truly a milestone worth celebrating.\n\nOver the six years we have had the privilege of working alongside Meridian Tech, we have seen firsthand the dedication and brilliance that defines your organisation. I find myself reflecting with great pride on milestones like our 2022 logistics platform launch — a project that challenged us both and delivered results that neither of us could have achieved alone.\n\nThis anniversary is a testament to the vision, hard work, and commitment that has always set Meridian Tech apart. We are genuinely excited about the journey ahead and the projects we will tackle together in the years to come.\n\nHere's to the next decade — and to many more shared successes.\n\nWith warmest congratulations,\n[Your Name]",
+    "metric_1_fact_recall": {
+      "score": 1.0,
+      "recalled_count": 4,
+      "total_facts": 4,
+      "per_fact": [
+        {
+          "fact": "Partner company: Meridian Tech has just celebrated its 10th anniversary",
+          "recalled": true,
+          "overlap_ratio": 0.7143
+        },
+        {
+          "fact": "The two companies have worked together for 6 years",
+          "recalled": true,
+          "overlap_ratio": 0.6667
+        },
+        {
+          "fact": "Highlight a specific shared success: the 2022 logistics platform launch",
+          "recalled": true,
+          "overlap_ratio": 0.875
+        },
+        {
+          "fact": "Express excitement about continued collaboration and future projects",
+          "recalled": true,
+          "overlap_ratio": 0.5
+        }
+      ]
+    },
+    "metric_2_tone_adherence": {
+      "score": 0.8889,
+      "raw_score": 9,
+      "reasoning": "The email maintains a warm, celebratory, and sincere tone throughout, with appropriate vocabulary and structure that aligns perfectly with the target tone."
+    },
+    "metric_3_fluency_professionalism": {
+      "score": 1.0,
+      "raw_score": 10,
+      "grammar": 4,
+      "structure": 3,
+      "clarity": 3,
+      "reasoning": "The email is well-written with no grammatical errors, follows a clear structure, and communicates its message effectively."
+    },
+    "composite_score": 0.963
+  },
+  {
+    "model_key": "gpt-4o",
+    "model_name": "OpenAI GPT-4o",
+    "scenario_id": 10,
+    "intent": "Escalate a recurring data security compliance issue to an IT manager",
+    "tone": "Formal, serious, and assertive",
+    "generated_email": "Subject: Escalation: Critical Data Security Compliance Issue\n\nDear [IT Manager's Name],\n\nI am writing to formally escalate a critical data security compliance issue within the marketing department. It has come to our attention that employees have been sharing sensitive customer data over unsecured personal email accounts. This practice constitutes a direct violation of GDPR Article 32 and our company's Data Protection Policy Section 4.2.\n\nThis matter was previously raised informally on June 2nd and June 9th, yet no corrective actions have been implemented to date. The continued non-compliance poses substantial risks to our organization.\n\nWith a formal audit scheduled for July 15th, it is imperative that we address this issue immediately. I am requesting that mandatory data security training be completed by all marketing department employees before July 1st to ensure compliance.\n\nPlease provide a written acknowledgment of this email within 48 hours, outlining the steps that will be taken to rectify the situation and comply with the upcoming audit requirements.\n\nYour immediate attention to this matter is essential.\n\nSincerely,\n[Your Name]",
+    "reference_email": "Subject: FORMAL ESCALATION — Data Security Compliance Breach, Marketing Department\n\nDear [IT Manager's Name],\n\nI am writing to formally escalate a recurring data security compliance issue that requires your immediate attention.\n\nIt has been identified that employees within the marketing department are transmitting sensitive customer data via personal, unsecured email accounts. This practice constitutes a direct violation of GDPR Article 32, which mandates appropriate technical and organisational measures to protect personal data, as well as Section 4.2 of our internal Data Protection Policy.\n\nThis matter was informally raised on two prior occasions — June 2nd and June 9th — and no corrective action has been taken to date. Given that a formal compliance audit is scheduled for July 15th, the urgency of this issue cannot be overstated.\n\nTo remediate this risk prior to the audit, I am formally requesting the following: (1) Mandatory data security training must be completed by all marketing department staff by July 1st; and (2) Written acknowledgement of this escalation within 48 hours.\n\nFailure to address this before the July 15th audit could expose the organisation to significant regulatory and reputational risk. I am available to discuss this matter at your earliest convenience.\n\nYours sincerely,\n[Your Name]\n[Title, Department]",
+    "metric_1_fact_recall": {
+      "score": 1.0,
+      "recalled_count": 6,
+      "total_facts": 6,
+      "per_fact": [
+        {
+          "fact": "Employees in the marketing department have been sharing sensitive customer data over unsecured personal email accounts",
+          "recalled": true,
+          "overlap_ratio": 1.0
+        },
+        {
+          "fact": "This violates GDPR Article 32 and company Data Protection Policy Section 4.2",
+          "recalled": true,
+          "overlap_ratio": 0.9
+        },
+        {
+          "fact": "Issue has been informally raised twice before — June 2nd and June 9th — with no action taken",
+          "recalled": true,
+          "overlap_ratio": 0.8889
+        },
+        {
+          "fact": "A formal audit is scheduled for July 15th",
+          "recalled": true,
+          "overlap_ratio": 1.0
+        },
+        {
+          "fact": "Requesting mandatory data security training to be completed before July 1st",
+          "recalled": true,
+          "overlap_ratio": 1.0
+        },
+        {
+          "fact": "Requesting written acknowledgement within 48 hours",
+          "recalled": true,
+          "overlap_ratio": 0.8333
+        }
+      ]
+    },
+    "metric_2_tone_adherence": {
+      "score": 1.0,
+      "raw_score": 10,
+      "reasoning": "The email maintains a formal, serious, and assertive tone throughout, with appropriate vocabulary and structure that align perfectly with the specified tone."
+    },
+    "metric_3_fluency_professionalism": {
+      "score": 1.0,
+      "raw_score": 10,
+      "grammar": 4,
+      "structure": 3,
+      "clarity": 3,
+      "reasoning": "The email is well-written with no grammatical errors, follows a clear structure, and communicates the urgency and details effectively."
+    },
+    "composite_score": 1.0
+  },
+  {
+    "model_key": "grok-3",
+    "model_name": "xAI Grok-3",
+    "scenario_id": 1,
+    "intent": "Follow up after a sales meeting and propose next steps",
+    "tone": "Warm and professional",
+    "generated_email": "Subject: Follow-Up on Our June 12th Meeting at Nexus HQ\n\nHi James Okafor,\n\nThank you for taking the time to meet with us on June 12th at Nexus HQ. It was a pleasure discussing your operational needs, and we appreciated the opportunity to present our solutions in person.\n\nI was glad to hear about your interest in the cloud storage integration feature. We believe this capability aligns well with Nexus Ltd's goals and can deliver meaningful efficiency gains for your team.\n\nTo help you evaluate the solution in a low-risk environment, I would like to propose a 30-day pilot program starting July 1st. This pilot would give you full access to the integration along with dedicated support so you can assess its impact directly.\n\nPlease let me know if this timeline works for you or if you'd prefer to discuss any adjustments. I'm happy to schedule a quick call to finalize details and answer any remaining questions.\n\nLooking forward to working with you,\n[Your Name]",
+    "reference_email": "Subject: Following Up on Our June 12th Meeting — Next Steps\n\nDear James,\n\nThank you for the engaging discussion during our meeting at Nexus HQ on June 12th. It was a pleasure exploring how our platform can address Nexus Ltd's operational needs.\n\nI was particularly glad to hear your interest in our cloud storage integration feature — it is one of our most robust capabilities and one I believe will deliver immediate value for your team.\n\nFollowing our conversation, I would like to formally propose a 30-day pilot program beginning July 1st. This would allow your team to experience the full feature set in a live environment with zero commitment, and give us measurable data to build a longer-term proposal around.\n\nPlease let me know if the July 1st start date works for you, or if you would prefer to schedule a brief call to finalise the details.\n\nWarm regards,\n[Your Name]",
+    "metric_1_fact_recall": {
+      "score": 0.75,
+      "recalled_count": 3,
+      "total_facts": 4,
+      "per_fact": [
+        {
+          "fact": "Meeting held on June 12th at Nexus HQ",
+          "recalled": true,
+          "overlap_ratio": 0.8333
+        },
+        {
+          "fact": "Client is interested in the cloud storage integration feature",
+          "recalled": true,
+          "overlap_ratio": 0.6667
+        },
+        {
+          "fact": "Proposed pilot program of 30 days starting July 1st",
+          "recalled": true,
+          "overlap_ratio": 0.75
+        },
+        {
+          "fact": "Contact: James Okafor, Head of Operations at Nexus Ltd",
+          "recalled": false,
+          "overlap_ratio": 0.4286
+        }
+      ]
+    },
+    "metric_2_tone_adherence": {
+      "score": 0.8889,
+      "raw_score": 9,
+      "reasoning": "The email maintains a warm and professional tone throughout, using polite language and a friendly approach without any contradictory signals."
+    },
+    "metric_3_fluency_professionalism": {
+      "score": 1.0,
+      "raw_score": 10,
+      "grammar": 4,
+      "structure": 3,
+      "clarity": 3,
+      "reasoning": "The email is well-written with no grammatical errors, follows a clear structure, and communicates its message effectively without unnecessary filler."
+    },
+    "composite_score": 0.8796
+  },
+  {
+    "model_key": "grok-3",
+    "model_name": "xAI Grok-3",
+    "scenario_id": 2,
+    "intent": "Request urgent payment for an overdue invoice",
+    "tone": "Firm and urgent",
+    "generated_email": "Subject: URGENT: Third Reminder for Overdue Invoice #INV-2024-0087 — Payment Due by June 20th\n\nDear Brightfield Solutions,\n\nThis is the third payment reminder regarding invoice #INV-2024-0087, which was due on May 30th with an outstanding amount of $14,750.\n\nTo avoid service suspension, payment must be received by June 20th. We expect your immediate action on this matter.\n\nSincerely,\n[Your Name]",
+    "reference_email": "Subject: FINAL NOTICE — Invoice #INV-2024-0087 Overdue ($14,750 Due)\n\nDear Brightfield Solutions Accounts Team,\n\nThis is our third and final payment reminder for Invoice #INV-2024-0087, which was due on May 30th. The outstanding balance of $14,750 remains unpaid.\n\nPlease be advised that payment must be received by June 20th. Failure to settle this balance by that date will result in the suspension of services as outlined in our agreement.\n\nWe ask that you process this payment immediately and confirm once completed. If there are extenuating circumstances affecting payment, please contact us today so we can discuss options before the deadline.\n\nWe expect prompt resolution of this matter,\n[Your Name]\n[Accounts Department]",
+    "metric_1_fact_recall": {
+      "score": 1.0,
+      "recalled_count": 5,
+      "total_facts": 5,
+      "per_fact": [
+        {
+          "fact": "Invoice #INV-2024-0087 was due on May 30th",
+          "recalled": true,
+          "overlap_ratio": 1.0
+        },
+        {
+          "fact": "Outstanding amount is $14,750",
+          "recalled": true,
+          "overlap_ratio": 1.0
+        },
+        {
+          "fact": "This is the third payment reminder",
+          "recalled": true,
+          "overlap_ratio": 1.0
+        },
+        {
+          "fact": "Payment must be received by June 20th to avoid service suspension",
+          "recalled": true,
+          "overlap_ratio": 1.0
+        },
+        {
+          "fact": "Client: Brightfield Solutions",
+          "recalled": true,
+          "overlap_ratio": 0.6667
+        }
+      ]
+    },
+    "metric_2_tone_adherence": {
+      "score": 0.8889,
+      "raw_score": 9,
+      "reasoning": "The email maintains a firm and urgent tone throughout, with clear language and a direct call to action."
+    },
+    "metric_3_fluency_professionalism": {
+      "score": 1.0,
+      "raw_score": 10,
+      "grammar": 4,
+      "structure": 3,
+      "clarity": 3,
+      "reasoning": "The email is well-written with no grammatical errors, follows a clear structure, and communicates the urgency of the payment clearly and concisely."
+    },
+    "composite_score": 0.963
+  },
+  {
+    "model_key": "grok-3",
+    "model_name": "xAI Grok-3",
+    "scenario_id": 3,
+    "intent": "Apologise for a delayed product shipment and provide a new delivery date",
+    "tone": "Empathetic and apologetic",
+    "generated_email": "Subject: Sincere Apologies for the Delay on Order #ORD-88421\n\nDear Maria Santos,\n\nI am writing to sincerely apologize for the delay in the delivery of your order. We understand how important it is to receive your shipment on time, and we deeply regret that we were unable to meet the original delivery date of June 5th.\n\nThe delay was caused by an unexpected customs clearance issue that arose during transit. We have now resolved the matter, and your order has a new confirmed delivery date of June 22nd.\n\nAs a goodwill gesture for the inconvenience, we would like to offer you a 10% discount on your next order. Please let us know if there is anything else we can do to assist you in the meantime.\n\nOnce again, we apologize for the delay and appreciate your patience and understanding.\n\nSincerely,\n[Your Name]",
+    "reference_email": "Subject: Update on Your Order #ORD-88421 — New Delivery Date\n\nDear Maria,\n\nI want to sincerely apologise for the delay with your order #ORD-88421. We understand how frustrating it is when an expected delivery does not arrive on time, and we are truly sorry for the inconvenience.\n\nUnfortunately, your shipment encountered an unexpected customs clearance issue that was outside our control, which pushed back the original June 5th delivery date. I am pleased to confirm that the issue has been resolved and your order is now scheduled for delivery on June 22nd.\n\nAs a token of our apology and gratitude for your patience, we would like to offer you a 10% discount on your next order. A discount code will be included in your shipping confirmation email.\n\nThank you for your understanding, Maria. We value your business greatly and are committed to making this right.\n\nWith sincere apologies,\n[Your Name]",
+    "metric_1_fact_recall": {
+      "score": 1.0,
+      "recalled_count": 5,
+      "total_facts": 5,
+      "per_fact": [
+        {
+          "fact": "Original delivery date was June 5th",
+          "recalled": true,
+          "overlap_ratio": 1.0
+        },
+        {
+          "fact": "Delay caused by an unexpected customs clearance issue",
+          "recalled": true,
+          "overlap_ratio": 1.0
+        },
+        {
+          "fact": "New confirmed delivery date is June 22nd",
+          "recalled": true,
+          "overlap_ratio": 1.0
+        },
+        {
+          "fact": "Customer: Maria Santos, Order #ORD-88421",
+          "recalled": true,
+          "overlap_ratio": 0.8
+        },
+        {
+          "fact": "Offering a 10% discount on next order as goodwill gesture",
+          "recalled": true,
+          "overlap_ratio": 1.0
+        }
+      ]
+    },
+    "metric_2_tone_adherence": {
+      "score": 0.8889,
+      "raw_score": 9,
+      "reasoning": "The email maintains an empathetic and apologetic tone throughout, with appropriate vocabulary and structure, effectively addressing the customer's concerns."
+    },
+    "metric_3_fluency_professionalism": {
+      "score": 1.0,
+      "raw_score": 10,
+      "grammar": 4,
+      "structure": 3,
+      "clarity": 3,
+      "reasoning": "The email is well-written with no grammatical errors, follows a clear structure, and communicates the message effectively without unnecessary filler."
+    },
+    "composite_score": 0.963
+  },
+  {
+    "model_key": "grok-3",
+    "model_name": "xAI Grok-3",
+    "scenario_id": 4,
+    "intent": "Request a proposal for corporate catering services for an annual gala",
+    "tone": "Formal and courteous",
+    "generated_email": "Subject: Request for Catering Proposal – Annual Corporate Gala on September 14th\n\nDear Catering Services Team,\n\nI am writing to request a formal proposal for corporate catering services for our upcoming annual gala. The event is scheduled for September 14th and will be held at The Grand Ballroom, Hotel Metropolis, with an expected attendance of 250 guests.\n\nIn preparing the proposal, please note that the menu must accommodate a range of dietary requirements, including vegan and gluten-free options. Our allocated budget for the catering services falls within the range of $20,000 – $30,000.\n\nWe would appreciate receiving your detailed proposal, including sample menus, pricing breakdowns, and service inclusions, no later than July 10th. Should you require any additional information to complete the proposal, please do not hesitate to contact me.\n\nThank you for your attention to this request. We look forward to the possibility of working with your team.\n\nSincerely,\n[Your Name]",
+    "reference_email": "Subject: Request for Catering Proposal — Annual Gala, September 14th\n\nDear Sir/Madam,\n\nI am writing on behalf of our organisation to formally request a catering proposal for our upcoming annual gala.\n\nThe event is scheduled for September 14th and will be held at The Grand Ballroom, Hotel Metropolis. We are expecting approximately 250 guests and require a comprehensive catering package that includes both dinner service and reception-style refreshments.\n\nPlease note that a portion of our guests have specific dietary requirements, and we ask that your proposal include vegan and gluten-free menu options. Our budget for the catering services is in the range of $20,000 to $30,000.\n\nWe kindly request that you submit your proposal by July 10th so that we may evaluate our options in a timely manner. Should you require any additional information, please do not hesitate to contact us.\n\nThank you for your time and consideration.\n\nYours faithfully,\n[Your Name]\n[Title, Organisation]",
+    "metric_1_fact_recall": {
+      "score": 1.0,
+      "recalled_count": 6,
+      "total_facts": 6,
+      "per_fact": [
+        {
+          "fact": "Event date: September 14th",
+          "recalled": true,
+          "overlap_ratio": 0.75
+        },
+        {
+          "fact": "Expected attendance: 250 guests",
+          "recalled": true,
+          "overlap_ratio": 1.0
+        },
+        {
+          "fact": "Venue: The Grand Ballroom, Hotel Metropolis",
+          "recalled": true,
+          "overlap_ratio": 0.8
+        },
+        {
+          "fact": "Dietary requirements include vegan and gluten-free options",
+          "recalled": true,
+          "overlap_ratio": 1.0
+        },
+        {
+          "fact": "Budget range: $20,000 – $30,000",
+          "recalled": true,
+          "overlap_ratio": 1.0
+        },
+        {
+          "fact": "Response needed by July 10th",
+          "recalled": true,
+          "overlap_ratio": 0.5
+        }
+      ]
+    },
+    "metric_2_tone_adherence": {
+      "score": 0.8889,
+      "raw_score": 9,
+      "reasoning": "The email maintains a formal and courteous tone throughout, with appropriate vocabulary and structure, and no contradicting signals."
+    },
+    "metric_3_fluency_professionalism": {
+      "score": 1.0,
+      "raw_score": 10,
+      "grammar": 4,
+      "structure": 3,
+      "clarity": 3,
+      "reasoning": "The email is well-written with no grammatical errors, follows a clear structure, and communicates the request effectively without unnecessary filler."
+    },
+    "composite_score": 0.963
+  },
+  {
+    "model_key": "grok-3",
+    "model_name": "xAI Grok-3",
+    "scenario_id": 5,
+    "intent": "Introduce a new team member to key external stakeholders",
+    "tone": "Friendly and professional",
+    "generated_email": "Subject: Introducing Priya Nair — Your New Senior Account Manager Starting July 1st\n\nDear Valued Stakeholders,\n\nI am pleased to introduce Priya Nair, who is joining our team as Senior Account Manager. Priya brings 8 years of experience in B2B client relations and will be an excellent resource for you.\n\nEffective July 1st, Priya will serve as your primary point of contact, replacing David Kim. Please direct all future enquiries to priya.nair@company.com.\n\nWe are confident that this transition will be seamless and that Priya will provide the same high level of support you have come to expect.\n\nBest regards,\n[Your Name]",
+    "reference_email": "Subject: Introducing Your New Account Manager — Priya Nair\n\nDear [Stakeholder Name],\n\nI hope this email finds you well. I am delighted to introduce Priya Nair, who will be joining our team as Senior Account Manager effective July 1st.\n\nPriya brings eight years of extensive experience in B2B client relations and is exceptionally well-placed to support your account. She will be stepping into the role currently held by David Kim and will become your primary point of contact going forward.\n\nFrom July 1st, please direct all enquiries and communications to Priya at priya.nair@company.com. She is eager to connect with you and looks forward to building on the strong relationship we have established together.\n\nWe are thrilled to have Priya on board and are confident you will enjoy working with her.\n\nWarm regards,\n[Your Name]",
+    "metric_1_fact_recall": {
+      "score": 1.0,
+      "recalled_count": 5,
+      "total_facts": 5,
+      "per_fact": [
+        {
+          "fact": "New team member: Priya Nair, joining as Senior Account Manager",
+          "recalled": true,
+          "overlap_ratio": 0.8889
+        },
+        {
+          "fact": "Priya brings 8 years of experience in B2B client relations",
+          "recalled": true,
+          "overlap_ratio": 0.875
+        },
+        {
+          "fact": "She will be the primary point of contact replacing David Kim",
+          "recalled": true,
+          "overlap_ratio": 1.0
+        },
+        {
+          "fact": "Effective date: July 1st",
+          "recalled": true,
+          "overlap_ratio": 0.75
+        },
+        {
+          "fact": "Stakeholders should direct all future enquiries to priya.nair@company.com",
+          "recalled": true,
+          "overlap_ratio": 0.8
+        }
+      ]
+    },
+    "metric_2_tone_adherence": {
+      "score": 0.7778,
+      "raw_score": 8,
+      "reasoning": "The email maintains a friendly and professional tone, though the phrase 'Dear Valued Stakeholders' feels slightly formal and could be more personable."
+    },
+    "metric_3_fluency_professionalism": {
+      "score": 1.0,
+      "raw_score": 10,
+      "grammar": 4,
+      "structure": 3,
+      "clarity": 3,
+      "reasoning": "The email is well-written with no grammatical errors, follows a clear structure, and communicates the message effectively without unnecessary filler."
+    },
+    "composite_score": 0.9259
+  },
+  {
+    "model_key": "grok-3",
+    "model_name": "xAI Grok-3",
+    "scenario_id": 6,
+    "intent": "Decline a partnership proposal politely while leaving the door open for future collaboration",
+    "tone": "Polite and diplomatic",
+    "generated_email": "Subject: Thank You for Your Partnership Proposal — Atlas Creative Agency\n\nDear Leo Farrell,\n\nThank you for sending the partnership proposal from Atlas Creative Agency on June 1st. We genuinely appreciated the detailed proposal and the creative concepts presented, which clearly reflect thoughtful consideration of our needs.\n\nAfter careful review, we have decided to decline at this time due to budget constraints for this fiscal year. While we are unable to move forward now, we remain impressed by your team's work and would welcome the opportunity to revisit the proposal in Q1 of next year.\n\nWe appreciate your understanding and look forward to the possibility of future collaboration.\n\nBest regards,\n[Your Name]",
+    "reference_email": "Subject: Re: Partnership Proposal — Atlas Creative Agency\n\nDear Leo,\n\nThank you for taking the time to put together such a comprehensive and creative partnership proposal, which we received on June 1st. The concepts and strategy you presented were genuinely impressive, and it is clear that significant thought and effort went into them.\n\nAfter careful consideration, we have made the difficult decision to decline the partnership at this time. This decision is driven purely by budget constraints within our current fiscal year and is in no way a reflection of the quality of your proposal or the capabilities of Atlas Creative Agency.\n\nWe are, however, very interested in the possibility of revisiting this conversation in Q1 of next year, when our budget cycle resets and we are better positioned to explore collaborations of this nature.\n\nWe hope this does not close the door on a future relationship, Leo, and we look forward to the possibility of working together down the line.\n\nKind regards,\n[Your Name]",
+    "metric_1_fact_recall": {
+      "score": 0.8,
+      "recalled_count": 4,
+      "total_facts": 5,
+      "per_fact": [
+        {
+          "fact": "Received proposal from Atlas Creative Agency on June 1st",
+          "recalled": true,
+          "overlap_ratio": 0.8571
+        },
+        {
+          "fact": "Decision to decline is due to budget constraints for this fiscal year",
+          "recalled": true,
+          "overlap_ratio": 0.8571
+        },
+        {
+          "fact": "Appreciated the detailed proposal and creative concepts presented",
+          "recalled": true,
+          "overlap_ratio": 1.0
+        },
+        {
+          "fact": "Open to revisiting in Q1 of next year",
+          "recalled": true,
+          "overlap_ratio": 0.8
+        },
+        {
+          "fact": "Contact at Atlas: Leo Farrell, Business Development Director",
+          "recalled": false,
+          "overlap_ratio": 0.4286
+        }
+      ]
+    },
+    "metric_2_tone_adherence": {
+      "score": 0.8889,
+      "raw_score": 9,
+      "reasoning": "The email maintains a polite and diplomatic tone throughout, with appropriate vocabulary and structure, and no contradicting signals."
+    },
+    "metric_3_fluency_professionalism": {
+      "score": 1.0,
+      "raw_score": 10,
+      "grammar": 4,
+      "structure": 3,
+      "clarity": 3,
+      "reasoning": "The email is well-written with no grammatical errors, follows a clear structure, and communicates the message effectively without unnecessary filler."
+    },
+    "composite_score": 0.8963
+  },
+  {
+    "model_key": "grok-3",
+    "model_name": "xAI Grok-3",
+    "scenario_id": 7,
+    "intent": "Request approval from a manager to attend an external conference",
+    "tone": "Respectful and persuasive",
+    "generated_email": "Subject: Request for Approval to Attend AI & Innovation Summit 2024 in San Francisco (August 19th–21st)\n\nDear Manager,\n\nI am writing to respectfully request your approval to attend the AI & Innovation Summit 2024, held in San Francisco from August 19th through the 21st. The conference covers topics directly relevant to our current Q3 project on ML pipeline automation, and I believe the sessions on emerging tools and best practices would provide valuable insights that I can immediately apply to our work.\n\nThe total estimated cost is $1,200 for registration plus $2,500 for travel and accommodation. I am confident this investment will deliver strong returns through improved project outcomes and knowledge sharing with the team.\n\nUpon my return, I am happy to commit to leading a debrief session with the team to share key takeaways and actionable recommendations.\n\nThank you for considering this request. I would greatly appreciate your support and am available to discuss further at your convenience.\n\nBest regards,\n[Your Name]",
+    "reference_email": "Subject: Request for Approval — AI & Innovation Summit 2024 (Aug 19–21)\n\nDear [Manager's Name],\n\nI would like to request your approval to attend the AI & Innovation Summit 2024, taking place in San Francisco from August 19th to 21st.\n\nThis conference is particularly relevant to our current Q3 project on ML pipeline automation. The sessions cover the latest developments in applied machine learning, pipeline orchestration, and AI deployment strategies — all of which directly align with the challenges we are navigating. I believe the insights gained could meaningfully accelerate our progress.\n\nThe registration fee is $1,200, with an estimated total of $2,500 for travel and accommodation, bringing the overall cost to approximately $3,700.\n\nTo maximise the value for the wider team, I am committed to hosting a debrief session upon my return to share key learnings and any applicable strategies.\n\nI appreciate your consideration and am happy to discuss further if helpful.\n\nRespectfully,\n[Your Name]",
+    "metric_1_fact_recall": {
+      "score": 1.0,
+      "recalled_count": 5,
+      "total_facts": 5,
+      "per_fact": [
+        {
+          "fact": "Conference: AI & Innovation Summit 2024, held in San Francisco",
+          "recalled": true,
+          "overlap_ratio": 1.0
+        },
+        {
+          "fact": "Dates: August 19th – 21st",
+          "recalled": true,
+          "overlap_ratio": 0.75
+        },
+        {
+          "fact": "Registration cost: $1,200; estimated travel and accommodation: $2,500",
+          "recalled": true,
+          "overlap_ratio": 1.0
+        },
+        {
+          "fact": "Conference covers topics directly relevant to current Q3 project on ML pipeline automation",
+          "recalled": true,
+          "overlap_ratio": 1.0
+        },
+        {
+          "fact": "Committing to a debrief session with the team upon return",
+          "recalled": true,
+          "overlap_ratio": 1.0
+        }
+      ]
+    },
+    "metric_2_tone_adherence": {
+      "score": 0.8889,
+      "raw_score": 9,
+      "reasoning": "The email maintains a respectful and persuasive tone throughout, with appropriate vocabulary and structure, effectively communicating the request."
+    },
+    "metric_3_fluency_professionalism": {
+      "score": 1.0,
+      "raw_score": 10,
+      "grammar": 4,
+      "structure": 3,
+      "clarity": 3,
+      "reasoning": "The email is well-written with no grammatical errors, follows a clear structure, and communicates the request effectively without unnecessary filler."
+    },
+    "composite_score": 0.963
+  },
+  {
+    "model_key": "grok-3",
+    "model_name": "xAI Grok-3",
+    "scenario_id": 8,
+    "intent": "Notify a client of a planned system maintenance window and its impact",
+    "tone": "Clear and reassuring",
+    "generated_email": "Subject: Planned System Maintenance Window — Saturday, June 29th to Sunday, June 30th\n\nDear Valued Client,\n\nWe are writing to notify you of a scheduled system maintenance window that will take place from Saturday, June 29th at 11:00 PM to Sunday, June 30th at 3:00 AM (UTC). During this period, all platform services will be unavailable.\n\nThis maintenance is being performed to upgrade our core infrastructure, delivering improved performance and enhanced security for all users. We want to reassure you that no data loss is expected, as all data will be fully backed up prior to the start of the window.\n\nTo minimize any potential disruption, please plan accordingly and avoid scheduling critical operations during this maintenance period.\n\nIf you have any questions or need assistance adjusting your schedules, please do not hesitate to reach out.\n\nBest regards,\n[Your Name]",
+    "reference_email": "Subject: Planned Maintenance Notification — June 29th, 11:00 PM UTC\n\nDear [Client Name],\n\nWe are writing to inform you of a planned system maintenance window that will affect access to our platform.\n\nThe maintenance is scheduled for Saturday, June 29th, from 11:00 PM UTC to Sunday, June 30th, 3:00 AM UTC (a total of 4 hours). During this period, all platform services will be temporarily unavailable.\n\nThis maintenance is necessary to upgrade our core infrastructure, delivering improvements to both system performance and security that will benefit all users going forward.\n\nPlease be assured that no data loss is expected. All data has been fully backed up in advance, and our engineering team will be on standby throughout the window. We strongly recommend planning your operations accordingly and avoiding scheduling any critical tasks during these hours.\n\nWe apologise for any inconvenience and thank you for your understanding.\n\nBest regards,\n[Your Name]\n[Support Team]",
+    "metric_1_fact_recall": {
+      "score": 1.0,
+      "recalled_count": 5,
+      "total_facts": 5,
+      "per_fact": [
+        {
+          "fact": "Maintenance window: Saturday, June 29th, 11:00 PM to Sunday, June 30th, 3:00 AM (UTC)",
+          "recalled": true,
+          "overlap_ratio": 1.0
+        },
+        {
+          "fact": "All platform services will be unavailable during this period",
+          "recalled": true,
+          "overlap_ratio": 1.0
+        },
+        {
+          "fact": "Maintenance is to upgrade core infrastructure for improved performance and security",
+          "recalled": true,
+          "overlap_ratio": 0.8571
+        },
+        {
+          "fact": "No data loss expected; all data is backed up",
+          "recalled": true,
+          "overlap_ratio": 1.0
+        },
+        {
+          "fact": "Client should plan accordingly and avoid scheduling critical operations during this window",
+          "recalled": true,
+          "overlap_ratio": 1.0
+        }
+      ]
+    },
+    "metric_2_tone_adherence": {
+      "score": 0.8889,
+      "raw_score": 9,
+      "reasoning": "The email maintains a clear and reassuring tone throughout, effectively communicating the necessary information while providing reassurance about data safety."
+    },
+    "metric_3_fluency_professionalism": {
+      "score": 1.0,
+      "raw_score": 10,
+      "grammar": 4,
+      "structure": 3,
+      "clarity": 3,
+      "reasoning": "The email is well-written with no grammatical errors, follows a clear structure, and communicates the message effectively without unnecessary filler."
+    },
+    "composite_score": 0.963
+  },
+  {
+    "model_key": "grok-3",
+    "model_name": "xAI Grok-3",
+    "scenario_id": 9,
+    "intent": "Congratulate a business partner on a company milestone and reinforce the relationship",
+    "tone": "Warm, celebratory, and sincere",
+    "generated_email": "Subject: Congratulations on Meridian Tech's 10th Anniversary!\n\nDear Meridian Tech Team,\n\nCongratulations on celebrating your 10th anniversary! It is a remarkable milestone, and we are thrilled to see Meridian Tech thriving after a decade of innovation and success.\n\nOur partnership with Meridian Tech has now spanned 6 years, and we are especially proud of the shared success we achieved together with the 2022 logistics platform launch. That project showcased the strength of our collaboration and delivered outstanding results for both teams.\n\nWe are genuinely excited about the opportunity to continue working together and to pursue new projects that will build on our strong foundation.\n\nWarmest regards,\n[Your Name]",
+    "reference_email": "Subject: Congratulations on 10 Years — A Milestone Worth Celebrating!\n\nDear [Partner's Name],\n\nOn behalf of our entire team, I want to extend our warmest congratulations to you and everyone at Meridian Tech on reaching your 10th anniversary. A decade of innovation, growth, and impact — this is truly a milestone worth celebrating.\n\nOver the six years we have had the privilege of working alongside Meridian Tech, we have seen firsthand the dedication and brilliance that defines your organisation. I find myself reflecting with great pride on milestones like our 2022 logistics platform launch — a project that challenged us both and delivered results that neither of us could have achieved alone.\n\nThis anniversary is a testament to the vision, hard work, and commitment that has always set Meridian Tech apart. We are genuinely excited about the journey ahead and the projects we will tackle together in the years to come.\n\nHere's to the next decade — and to many more shared successes.\n\nWith warmest congratulations,\n[Your Name]",
+    "metric_1_fact_recall": {
+      "score": 1.0,
+      "recalled_count": 4,
+      "total_facts": 4,
+      "per_fact": [
+        {
+          "fact": "Partner company: Meridian Tech has just celebrated its 10th anniversary",
+          "recalled": true,
+          "overlap_ratio": 0.7143
+        },
+        {
+          "fact": "The two companies have worked together for 6 years",
+          "recalled": true,
+          "overlap_ratio": 0.6667
+        },
+        {
+          "fact": "Highlight a specific shared success: the 2022 logistics platform launch",
+          "recalled": true,
+          "overlap_ratio": 0.75
+        },
+        {
+          "fact": "Express excitement about continued collaboration and future projects",
+          "recalled": true,
+          "overlap_ratio": 0.5
+        }
+      ]
+    },
+    "metric_2_tone_adherence": {
+      "score": 0.8889,
+      "raw_score": 9,
+      "reasoning": "The email maintains a warm, celebratory, and sincere tone throughout, with appropriate vocabulary and structure that aligns perfectly with the target tone."
+    },
+    "metric_3_fluency_professionalism": {
+      "score": 1.0,
+      "raw_score": 10,
+      "grammar": 4,
+      "structure": 3,
+      "clarity": 3,
+      "reasoning": "The email is well-written with no grammatical errors, follows a clear structure, and communicates its message effectively."
+    },
+    "composite_score": 0.963
+  },
+  {
+    "model_key": "grok-3",
+    "model_name": "xAI Grok-3",
+    "scenario_id": 10,
+    "intent": "Escalate a recurring data security compliance issue to an IT manager",
+    "tone": "Formal, serious, and assertive",
+    "generated_email": "Subject: Formal Escalation — Recurring Data Security Compliance Violation in Marketing Department\n\nDear IT Manager,\n\nI am writing to formally escalate a recurring data security compliance issue that has not been addressed despite prior informal notifications. Employees in the marketing department have been sharing sensitive customer data over unsecured personal email accounts. This practice violates GDPR Article 32 and company Data Protection Policy Section 4.2.\n\nThe issue was informally raised on June 2nd and again on June 9th, yet no action has been taken. A formal audit is scheduled for July 15th, which makes immediate remediation essential to avoid regulatory penalties and reputational damage.\n\nI require that mandatory data security training be completed by all relevant staff before July 1st. I also request written acknowledgement of this escalation and confirmation of the planned actions within 48 hours.\n\nFailure to respond appropriately will necessitate escalation to senior leadership and the compliance committee.\n\nSincerely,\n[Your Name]",
+    "reference_email": "Subject: FORMAL ESCALATION — Data Security Compliance Breach, Marketing Department\n\nDear [IT Manager's Name],\n\nI am writing to formally escalate a recurring data security compliance issue that requires your immediate attention.\n\nIt has been identified that employees within the marketing department are transmitting sensitive customer data via personal, unsecured email accounts. This practice constitutes a direct violation of GDPR Article 32, which mandates appropriate technical and organisational measures to protect personal data, as well as Section 4.2 of our internal Data Protection Policy.\n\nThis matter was informally raised on two prior occasions — June 2nd and June 9th — and no corrective action has been taken to date. Given that a formal compliance audit is scheduled for July 15th, the urgency of this issue cannot be overstated.\n\nTo remediate this risk prior to the audit, I am formally requesting the following: (1) Mandatory data security training must be completed by all marketing department staff by July 1st; and (2) Written acknowledgement of this escalation within 48 hours.\n\nFailure to address this before the July 15th audit could expose the organisation to significant regulatory and reputational risk. I am available to discuss this matter at your earliest convenience.\n\nYours sincerely,\n[Your Name]\n[Title, Department]",
+    "metric_1_fact_recall": {
+      "score": 1.0,
+      "recalled_count": 6,
+      "total_facts": 6,
+      "per_fact": [
+        {
+          "fact": "Employees in the marketing department have been sharing sensitive customer data over unsecured personal email accounts",
+          "recalled": true,
+          "overlap_ratio": 1.0
+        },
+        {
+          "fact": "This violates GDPR Article 32 and company Data Protection Policy Section 4.2",
+          "recalled": true,
+          "overlap_ratio": 0.9
+        },
+        {
+          "fact": "Issue has been informally raised twice before — June 2nd and June 9th — with no action taken",
+          "recalled": true,
+          "overlap_ratio": 0.8889
+        },
+        {
+          "fact": "A formal audit is scheduled for July 15th",
+          "recalled": true,
+          "overlap_ratio": 1.0
+        },
+        {
+          "fact": "Requesting mandatory data security training to be completed before July 1st",
+          "recalled": true,
+          "overlap_ratio": 1.0
+        },
+        {
+          "fact": "Requesting written acknowledgement within 48 hours",
+          "recalled": true,
+          "overlap_ratio": 1.0
+        }
+      ]
+    },
+    "metric_2_tone_adherence": {
+      "score": 0.8889,
+      "raw_score": 9,
+      "reasoning": "The email maintains a formal, serious, and assertive tone throughout, with appropriate vocabulary and structure, effectively conveying urgency and authority."
+    },
+    "metric_3_fluency_professionalism": {
+      "score": 1.0,
+      "raw_score": 10,
+      "grammar": 4,
+      "structure": 3,
+      "clarity": 3,
+      "reasoning": "The email is well-written with no grammatical errors, follows a clear structure, and communicates the message effectively without unnecessary filler."
+    },
+    "composite_score": 0.963
+  }
+]
